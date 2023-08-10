@@ -18,8 +18,8 @@
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
             "outputPath": "dist/main",
-            "index": "src/index.html",
-            "main": "src/main.ts",
+            "index": "src/app/app.component.html",
+            "main": "src/app/app.component.ts",
             "polyfills": [
               "zone.js"
             ],
@@ -102,5 +102,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": false
   }
 }
